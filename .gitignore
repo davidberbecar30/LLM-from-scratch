@@ -1,0 +1,19 @@
+# OS / editor junk
+.DS_Store
+.idea/
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Model weights & checkpoints (large, regenerable)
+*.pth
+*.ckpt
+*.ckpt.*
+gpt2/
+
+# Downloaded pretrained configs tied to the weights above
+gpt2_small_config.json
+gpt2_medium_config.json

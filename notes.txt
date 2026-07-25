@@ -1,0 +1,18 @@
+partial derivative = the rate at which a function changes with respect to one of its variables
+
+chain rule= a way to compute gradients of a loss function given the model's parameters
+
+grad_L_w1= grad(loss,w1,retain_graph=True) #partial derivative of the loss with respect to w1 (how much does the loss change
+                                          # and in what direction if I change this weight )
+
+BERT= bidirectional encoder representations from transformers
+GPT= generative pretrained transformers
+BPE = byte pair encoding
+
+attention score= dot product of the embedded vector of a word with the vector of all the words in the context
+
+dot product= beyond the mathematical operation, the dot product of 2 vectors represents the similarity of the 2 vectors,
+                meaning how closely the vectors are aligned. In the context of self-attention, the dot product represents
+                to what extent each element in the sequence focuses on any other element. The
+                higher the dot product, the higher the similarity and attention score between two
+                elements.
